@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  /* removes border radius of buttons */
+  border-radius: 0!important;
+  transition: all ease-in;
+}
+
+.bodystyle{
+  width: 85%;
+  margin: 0 auto;
+}
+
+#logo{
+  height: 26px;
+}
+
+/* make the slider image responsive */
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* change position of slider content */
+.carousel-item{
+  position: relative;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 30%;
+  left: 11%!important;
+}
+
+.carousel-caption h5{
+  text-align: left;
+  color: #000;
+  font-size: 2.3rem;
+}
+
+.carousel-caption p{
+  text-align: left;
+  color: #000;
+  
+}
+
+.carousel-caption button{
+  position: absolute;
+  left: 0;
+}
+
+/* Main sections starts here */
+
+/* cards */
+main{
+  margin: 40px auto;
+}
+
+.card{
+  border: none!important;
+}
+
+.card a{
+  text-decoration: none;
+  color: darkred;
+  
+}
+
+.card-body{
+  padding: 5px 0!important ;
+  margin: 5%;
+}
+
+.card-body h5{
+  font-weight: bold;
+}
+
+.row{
+  place-content: center;
+}
+
+/* banner */
+.banner{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/banner-1596x600.avif');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px 0 50px 0;
+}
+
+.block{
+  position: absolute;
+  background-color: white;
+  box-sizing: content-box;
+  padding: 3rem 4rem 3rem 2rem;
+  top: 30%;
+  left: 5%;
+}
+
+.block h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* social banner  */
+
+.socialsec{
+  margin: 50px 0 50px 0;
+}
+
+.fa-brands{
+  color: #000;
+}
+
+
+/* footer section  */
+.footer{
+  background-color: #f2f2f2;
+}
+
+.footerlist li a{
+  text-decoration: none;
+}
